@@ -14,4 +14,3 @@ else:
         print("Es un numero feo")
     else:
         print("No es un numero feo")
-
