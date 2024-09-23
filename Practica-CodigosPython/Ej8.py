@@ -6,4 +6,4 @@ fac=1; i=1
 while i<=b:
     fac=fac*i; i=i+1
     if i>a:
-        print(fac)
+        print(i-1,"! = ",fac)
