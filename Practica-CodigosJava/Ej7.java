@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class Ej7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese número 1: ");
+        System.out.print("Ingrese numero 1: ");
         int a = scanner.nextInt();
-        System.out.print("Ingrese número 2: ");
+        System.out.print("Ingrese numero 2: ");
         int b = scanner.nextInt();
-        System.out.print("Ingrese número 3: ");
+        System.out.print("Ingrese numero 3: ");
         int c = scanner.nextInt();
-        System.out.print("Ingrese número 4: ");
+        System.out.print("Ingrese numero 4: ");
         int d = scanner.nextInt();
-        System.out.print("Ingrese número 5: ");
+        System.out.print("Ingrese numero 5: ");
         int e = scanner.nextInt();
         int M, m;
         if (a > b) {

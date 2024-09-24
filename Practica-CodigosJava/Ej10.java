@@ -15,7 +15,7 @@ public class Ej10 {
                 n = n * 3 + 1;
             }
         }
-        System.out.println(n); // Imprimir el último número (1)
+        System.out.println(n); 
         
         scanner.close();
     }

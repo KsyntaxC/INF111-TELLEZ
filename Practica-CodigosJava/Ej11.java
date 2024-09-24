@@ -9,14 +9,14 @@ public class Ej11 {
         System.out.print("Intro B: ");
         int B = scanner.nextInt();
         for (int i = A; i <= B; i++) {
-            int c2 = 0; // Contador de divisores
+            int c2 = 0; 
             for (int c1 = 1; c1 <= i; c1++) {
                 if (i % c1 == 0) {
-                    c2++; // Incrementar contador si es divisor
+                    c2++; 
                 }
             }
             if (c2 == 2) {
-                System.out.print(i + ", "); // Imprimir número primo
+                System.out.print(i + ", "); 
             }
         }
         scanner.close();

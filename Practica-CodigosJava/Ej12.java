@@ -6,7 +6,7 @@ public class Ej12 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce el numero: ");
         int n = scanner.nextInt();
-        int original = n; // Guardar el valor original para la salida
+        int original = n; 
         if (n == 1) {
             System.out.println("Es un numero feo");
         } else {
