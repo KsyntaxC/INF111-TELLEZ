@@ -6,7 +6,7 @@ public class Ej2 {
         System.out.print("Ingrese el radio: ");
         int r = scanner.nextInt();
         double P = 2 * 3.1416 * r;
-        System.out.println("El perímetro del circulo es: " + P);
+        System.out.println("El perimetro del circulo es: " + P);
         scanner.close();
     }
 }
